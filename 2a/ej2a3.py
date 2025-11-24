@@ -106,6 +106,7 @@ def main(list_students, new_student_by_value, new_student_by_reference):
     print(f"Student list by reference {add_student_by_reference(list_students, new_student_by_reference)}")
     print(f"Original student list {list_students}")
 
+    return list_students
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
